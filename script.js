@@ -5,7 +5,7 @@ const resultcontainer=document.createElement("div");
 resultcontainer.setAttribute("class","row")
 container.append(resultcontainer)
 
-fetch('http://makeup-api.herokuapp.com/api/v1/products.json')
+fetch('https://makeup-api.herokuapp.com/api/v1/products.json')
 .then((response)=>{if (response.ok) {
     return response.json();
   } else {
